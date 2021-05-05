@@ -76,7 +76,7 @@ Tools.connect = function() {
     self.socket = null;
   }
 
-  this.socket = io.connect(':80', {
+  this.socket = io.connect('https://brainwekwbo.herokuapp.com/', {
 	"reconnection" : true,
 	"reconnectionDelay": 100, //Make the xhr connections as fast as possible
 	"timeout": 1000 * 60 * 20 // Timeout after 20 minutes
