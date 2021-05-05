@@ -5,6 +5,9 @@
    ],
    "version": "1.2.14",
    "license": "AGPL-3.0-or-later",
+    "engines": {
+    "node": "14.x"
+  },
    "dependencies": {
       "accept-language-parser": "^1.5.0",
       "handlebars": "^4.7.6",
